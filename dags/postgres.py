@@ -42,6 +42,4 @@ with DAG(
             """
     )
 
-
-
 createtable_task >> populatetable_task >> getusers_task
